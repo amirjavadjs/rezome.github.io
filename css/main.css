@@ -1,0 +1,136 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/Vazir-Bold.woff");
+  src: url("../font/Vazir-Bold.woff2") format("woff2"),
+    /* IE6-8 */ url("../font/Vazir-Light.ttf") format("ttf"); /* Chrome36+, Opera24+*/
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+:root {
+  --mainBlue: #40acf1;
+  --transparentBlue: rgba(64, 172, 241, 0.7);
+  --mainWhite: #ffffff;
+  --mainBlack: #292f36;
+  --mainGrey: rgb(216, 214, 214);
+  --mainYellow: #e3b505;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: Vazir;
+}
+* {
+  font-family: Vazir;
+}
+
+.btn {
+  background-color: transparent;
+  color: var(--mainBlack);
+  border: 3px solid var(--mainBlue);
+  background-color: var(--mainBlue);
+  color: var(--mainWhite);
+  border-radius: 5px;
+}
+.card-text1 {
+  text-align: right;
+}
+.card-text3 {
+  text-align: left;
+}
+.ovtar {
+  width: 69%;
+}
+.card-text2 {
+  line-height: 30px;
+}
+.card {
+  box-shadow: -1px -1px 20px 2px #57838d;
+}
+hr {
+  height: 0.2px;
+  background-color:var(--mainBlue);
+}
+.text4 {
+  display: flex;
+  justify-content: space-between;
+}
+progress{
+  color: var(--mainBlue);
+}
+.img-style{
+transition:all 1s;  
+margin-bottom:10px;
+position: relative;
+}
+.img-style:hover{
+  opacity: 0.5;
+  box-shadow: -1px -1px 20px 2px black;
+  transform: scale(1.1);
+  
+}
+/* 
+.icon-i{
+  position: absolute;
+  bottom: 50%;
+  left:50%;
+  transform: translate(-50%,50%);
+  font-size: 5rem;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.img-style:hover .icon-i{
+ opacity: 1;
+} */
+
+.meg-text{
+  line-height: 40px;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .nmone{
+    margin-left:90px;
+  }
+  .text-n{
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .cr1{
+    margin-right: 10px;
+  }
+}
+.text-menu{
+  box-shadow: -1px -1px 20px 2px #19525f;
+  border-radius: 5px;
+
+}
+
+.nav-t{
+  border-radius: 5px;
+}
+.nav-style2{
+  margin-right: 90px;
+  margin-top:60px;
+}
+
+.text-4{
+  margin-right:120px;
+}
+
+@media (max-width:700px) {
+  .nav-style2{
+  display: none;
+  }
+}
+.text-1{
+  color: var(--mainBlue);
+}
+ 
